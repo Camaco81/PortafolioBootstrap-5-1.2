@@ -1,0 +1,29 @@
+body{
+	font-family: "Montserrat",roboto;
+}
+.text-underline{
+	text-decoration: underline;
+	text-decoration-color: blueviolet;
+}
+
+.list-style-none{
+	list-style: none;
+}
+
+input{
+	background-color: transparent;
+	border: 1px solid white;
+	width: 250px;
+	color: white;
+}
+textarea{
+	background-color:transparent ;
+	color: white;
+	border: 1px solid white;
+
+}
+
+.btn-subtmi{
+	border: none;
+	padding: 4px;
+}
