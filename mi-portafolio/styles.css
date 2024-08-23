@@ -27,3 +27,89 @@ textarea{
 	border: none;
 	padding: 4px;
 }
+
+@media screen and (max-width: 575px){
+	
+
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.my-name{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.social-media{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.prologo{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.basic-skills{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		justify-content: center;
+		align-items: center;
+	}
+	.basic-skills img{
+		width: 300px;
+	}
+	.frameworks-skills{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		justify-content: center;
+		align-items: center;
+	}
+	.frameworks-skills img{
+		width: 300px;
+	}
+	.proyect-1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		}
+	.proyect-1 img{
+		width: 400px;
+	}
+	.proyect-2{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		}
+	.proyect-2 img{
+		width: 400px;
+	}
+
+	footer section{
+		display: flex;
+		flex-direction: column;
+	}
+	.contact-social-media{
+		display: flex;
+		flex-direction: column;
+	}
+	.my-name-2{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.social-media-2{
+		display: flex;
+		justify-content: center;
+	}
+
+}
