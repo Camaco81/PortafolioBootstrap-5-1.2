@@ -36,6 +36,10 @@ textarea{
 		flex-direction: column;
 	}
 
+	header img{
+		width: 300px;
+	}
+
 	nav{
 		display: flex;
 		flex-direction: column;
@@ -63,7 +67,7 @@ textarea{
 		align-items: center;
 	}
 	.basic-skills img{
-		width: 300px;
+		width: 290px;
 	}
 	.frameworks-skills{
 		display: flex;
@@ -73,7 +77,7 @@ textarea{
 		align-items: center;
 	}
 	.frameworks-skills img{
-		width: 300px;
+		width: 290px;
 	}
 	.proyect-1{
 		display: flex;
@@ -82,7 +86,7 @@ textarea{
 		align-items: center;
 		}
 	.proyect-1 img{
-		width: 400px;
+		width: 350px;
 	}
 	.proyect-2{
 		display: flex;
@@ -91,7 +95,7 @@ textarea{
 		align-items: center;
 		}
 	.proyect-2 img{
-		width: 400px;
+		width: 350px;
 	}
 
 	footer section{
