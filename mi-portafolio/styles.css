@@ -59,6 +59,18 @@ transition: 1s;
 
 
 
+#proyects img{
+	height: 200px;
+	width: 400px;
+	box-shadow: 5px 5px 5px rgba(205, 205, 205, 0.3);
+}
+
+#skills img{
+	box-shadow: 5px 5px 5px rgba(205, 205, 205, 0.3);
+}
+
+
+
 @media screen and (max-width: 575px){
 	
 
