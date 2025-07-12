@@ -1,0 +1,211 @@
+body{
+    font-family: "Montserrat",roboto;
+}
+.text-underline{
+    text-decoration: underline;
+    text-decoration-color: #04D9FF;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.mi-foto{
+    border-radius: 100%;
+    height: 280px;
+    width: 280px;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 250px;
+    color: white;
+}
+textarea{
+    background-color:transparent ;
+    color: white;
+    border: 1px solid white;
+
+}
+
+ul >li>a>i:hover{
+    transition: 1s;
+    color:#04D9FF ;
+}
+.border-neon{
+    border: 4px solid #04D9FF;
+}
+
+.blueneon{
+    color:#04D9FF !important;
+}
+
+.btn-subtmi{
+    border: none;
+    padding: 4px;
+}
+
+.btn-neon{
+    border: 1px solid #04D9FF;
+    text-decoration: none;
+    color: #04D9FF;
+}
+.btn-neon:hover{
+    background-color: #04D9FF;
+    color: black;
+    transition: 1s;
+}
+
+#proyects img{
+    height: 200px;
+    width: 400px;
+    box-shadow: 5px 5px 5px rgba(205, 205, 205, 0.3);
+}
+
+#skills img{
+    box-shadow: 5px 5px 5px rgba(205, 205, 205, 0.3);
+}
+
+/* --- Nuevos estilos para el selector de idioma personalizado --- */
+.language-switcher .btn {
+    border: 1px solid #04D9FF;
+    color: #04D9FF;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 40px; /* Asegura un tamaño mínimo para el botón */
+    text-align: center;
+}
+
+.language-switcher .btn:hover {
+    background-color: #04D9FF;
+    color: black;
+}
+
+.language-switcher .btn.active {
+    background-color: #04D9FF;
+    color: black;
+    font-weight: bold;
+    border-color: #04D9FF; /* Mantener el borde neon */
+}
+
+/* Ajustes para el espacio entre los botones */
+.language-switcher .mx-1 {
+    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
+}
+
+/* Asegurar que el nav no tenga márgenes/padding indeseados */
+nav {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* --- Media Queries para responsividad (mantengo tus reglas existentes) --- */
+@media screen and (max-width: 575px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header img{
+        width: 300px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .my-name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .prologo{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+    }
+    .personal-info{
+        width: 90%;
+    }
+    .basic-skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .basic-skills img{
+        width: 290px;
+    }
+    .frameworks-skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .frameworks-skills img{
+        width: 290px;
+    }
+    .proyect-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .proyect-1 img{
+        width: 350px;
+    }
+    .proyect-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .proyect-2 img{
+        width: 350px;
+    }
+
+    .proyect-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .info-contac{
+        width: 95%;
+    }
+    .contact-social-media{
+        display: flex;
+        flex-direction: column;
+    }
+    .my-name-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media-2{
+        display: flex;
+        justify-content: center;
+    }
+}

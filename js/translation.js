@@ -1,0 +1,52 @@
+const translations = {
+    es: {
+        "greeting": "¡Hola!",
+        "name-intro": "Soy Marco Camacho",
+        "personal-description": "Desarrollador Front-end especializado en transformar ideas en experiencias web atractivas y funcionales. ¿Tienes un proyecto en mente? ¡Hagámoslo realidad!",
+        "contact-me-btn": "contáctame",
+        "my-skills-heading": "Mis Habilidades",
+        "basic-skills-heading": "Básico",
+        "frameworks-heading": "Frameworks",
+        "projects-heading": "Proyectos",
+        "imc-calculator-title": "Calculadora de IMC",
+        "portfolio-title": "Portafolio",
+        "money-converter-title": "Conversor de dinero",
+        "protein-calculator-title": "Calculadora de consumo de proteínas",
+        "calories-calculator-title": "Calculadora de calorías",
+        "jobsage-website-title": "Sitio web JobSage (Olimpiadas copa 2023)",
+        "view-project-btn": "Ver proyecto",
+        "contact-heading": "Contacto",
+        "contact-description": "Puedes contactarme cuando quieras, estaré a la disposición de hacer cualquier trabajo de Desarrollo Web Front-end",
+        "name-label": "Nombre",
+        "email-label": "Correo",
+        "message-label": "Mensaje",
+        "send-message-btn": "Enviar Mensaje",
+        // Añade todas las claves de texto de tu sitio aquí para español
+    },
+    en: {
+        "greeting": "Hello!",
+        "name-intro": "I'm Marco Camacho",
+        "personal-description": "Front-end Developer specializing in transforming ideas into attractive and functional web experiences. Do you have a project in mind? Let's make it real!",
+        "contact-me-btn": "contact me",
+        "my-skills-heading": "My Skills",
+        "basic-skills-heading": "Basic",
+        "frameworks-heading": "Frameworks",
+        "projects-heading": "Projects",
+        "imc-calculator-title": "BMI Calculator",
+        "portfolio-title": "Portfolio",
+        "money-converter-title": "Currency Converter",
+        "protein-calculator-title": "Protein Consumption Calculator",
+        "calories-calculator-title": "Calorie Calculator",
+        "jobsage-website-title": "JobSage Website (2023 Cup Olympics)",
+        "view-project-btn": "View project",
+        "contact-heading": "Contact",
+        "contact-description": "You can contact me anytime; I'll be available to do any Front-end Web Development work.",
+        "name-label": "Name",
+        "email-label": "Email",
+        "message-label": "Message",
+        "send-message-btn": "Send Message",
+        // Añade todas las claves de texto de tu sitio aquí para inglés
+    }
+};
+
+let currentLanguage = 'es'; // Idioma inicial predeterminado
