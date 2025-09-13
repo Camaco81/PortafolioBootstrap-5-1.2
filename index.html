@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Camacho - Fullstack Developer</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="content-to-translate">
+    <div class="animated-bg"></div>
+    
+    <nav class="py-3">
+        <div class="container">
+            <div class="d-flex flex-lg-row flex-column justify-content-between align-items-center">
+                <div class="my-name">
+                    &lt;MarcoCamacho/&gt;
+                </div>
+
+                <div class="language-switcher d-flex justify-content-center align-items-center mb-3 mb-lg-0">
+                    <button id="lang-es" class="btn btn-outline-light btn-sm mx-1 active">ES</button>
+                    <button id="lang-en" class="btn btn-outline-light btn-sm mx-1">EN</button>
+                </div>
+
+                <div class="social-media d-flex gap-2">
+                    <a href="https://github.com/Camaco81" target="_blank" class="text-white"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/camaco81" target="_blank" class="text-white"><i class="bi bi-instagram"></i></a>
+                    <a href="#" target="_blank" class="text-white"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/marcos-camacho-677145298" target="_blank" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1 class="hero-title">
+                        ¡Hola! 👋<br>
+                        Soy <span class="gradient-text">Marco Camacho</span><br>
+                        <span class="typewriter" data-key="role">Fullstack Developer</span>
+                    </h1>
+                    <p class="hero-description" data-key="hero-description">
+                        Desarrollador Fullstack especializado en crear aplicaciones web completas y escalables. 
+                        Transformo ideas en soluciones digitales innovadoras usando las últimas tecnologías.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#contacto" class="neon-btn" data-key="contact-me-btn">Contáctame</a>
+                        <a href="#proyectos" class="btn btn-outline-light px-4 py-2 rounded-pill" data-key="view-projects-btn">Ver Proyectos</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <div class="hero-image">
+                        <img src="img/mi-foto.jpeg" alt="Marco Camacho">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-5 fade-in">
+            <div class="section-header">
+                <h2 class="section-title" data-key="skills-title">Tecnologías & Habilidades</h2>
+                <p class="section-subtitle" data-key="skills-subtitle">
+                    Stack tecnológico completo para desarrollo web moderno
+                </p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="glass-card">
+                    <h3><i class="bi bi-laptop"></i> Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="bi bi-filetype-html"></i></div>
+                        <div class="skill-progress">
+                            <div class="skill-name">HTML5</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="bi bi-filetype-css"></i></div>
+                        <div class="skill-progress">
+                            <div class="skill-name">CSS3 / SCSS</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="bi bi-filetype-js"></i></div>
+                        <div class="skill-progress">
+                            <div class="skill-name">JavaScript ES6+</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">⚡</div>
+                        <div class="skill-progress">
+                            <div class="skill-name">Vue.js</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="skill-item">
+                        <div class="skill-icon"><i class="bi bi-bootstrap"></i></div>
+                        <div class="skill-progress">
+                            <div class="skill-name">Bootstrap</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="glass-card">
+                    <h3><i class="bi bi-server"></i> Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="bi bi-braces"></i></div>
+                        <div class="skill-progress">
+                            <div class="skill-name">Node.js</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🐍</div>
+                        <div class="skill-progress">
+                            <div class="skill-name">Python</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">☕</div>
+                        <div class="skill-progress">
+                            <div class="skill-name">PHP</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="bi bi-api"></i></div>
+                        <div class="skill-progress">
+                            <div class="skill-name">REST APIs</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card">
+                    <h3><i class="bi bi-database"></i> Database & Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="bi bi-database"></i></div>
+                        <div class="skill-progress">
+                            <div class="skill-name">MySQL</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🍃</div>
+                        <div class="skill-progress">
+                            <div class="skill-name">MongoDB</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="bi bi-git"></i></div>
+                        <div class="skill-progress">
+                            <div class="skill-name">Git & GitHub</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">☁️</div>
+                        <div class="skill-progress">
+                            <div class="skill-name">Firebase</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="55%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experiencia" class="py-5 fade-in">
+            <div class="section-header">
+                <h2 class="section-title" data-key="experience-title">Experiencia</h2>
+                <p class="section-subtitle" data-key="experience-subtitle">
+                    Mi trayectoria profesional en el desarrollo web
+                </p>
+            </div>
+            
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date" data-key="current">2025 - Actualidad</div>
+                    <div class="experience-title" data-key="freelance-title">Desarrollador Fullstack Freelance</div>
+                    <div class="experience-company" data-key="freelance-company">Independiente</div>
+                    <p data-key="freelance-description">
+                        Desarrollo de aplicaciones web completas para clientes diversos, desde landing pages 
+                        hasta sistemas de gestión empresarial. Especialización en Vue.js, Node.js y bases de datos relacionales.
+                    </p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-date">2023</div>
+                    <div class="experience-title" data-key="competition-title">Participante - Olimpiadas de Programación</div>
+                    <div class="experience-company" data-key="competition-company">Copa Nacional 2023</div>
+                    <p data-key="competition-description">
+                        Desarrollo del proyecto JobSage, una plataforma web para búsqueda de empleo. 
+                        Implementé funcionalidades de filtrado, búsqueda avanzada y panel administrativo.
+                    </p>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-date">2022 - 2023</div>
+                    <div class="experience-title" data-key="learning-title">Formación Autodidacta</div>
+                    <div class="experience-company" data-key="learning-company">Desarrollo Web</div>
+                    <p data-key="learning-description">
+                        Aprendizaje intensivo de tecnologías web modernas a través de cursos online, 
+                        proyectos personales y práctica constante. Enfoque en JavaScript, frameworks y desarrollo backend.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="proyectos" class="py-5 fade-in">
+            <div class="section-header">
+                <h2 class="section-title" data-key="projects-title">Proyectos Destacados</h2>
+                <p class="section-subtitle" data-key="projects-subtitle">
+                    Aplicaciones web que demuestran mis habilidades técnicas
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="glass-card project-card">
+                        <div class="project-image">
+                            <img src="img/img1.png" alt="Calculadora IMC">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://camaco81.github.io/calculadora_imc/calculadora_imc.html" target="_blank" class="project-link">
+                                        <i class="bi bi-eye"></i> Ver Demo
+                                    </a>
+                                    <a href="https://github.com/Camaco81" target="_blank" class="project-link">
+                                        <i class="bi bi-github"></i> Código
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title" data-key="imc-calculator-title">Calculadora de IMC</h4>
+                            <p class="project-tech">Vue.js • Tailwind CSS • JavaScript</p>
+                            <p data-key="imc-description">
+                                Aplicación web interactiva para calcular el Índice de Masa Corporal con validación en tiempo real 
+                                y recomendaciones personalizadas según los resultados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="glass-card project-card">
+                        <div class="project-image">
+                            <img src="img/gym-track.png" alt="Gym-Track">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://gym-app-ca9ae.web.app/" target="_blank" class="project-link">
+                                        <i class="bi bi-eye"></i> Ver Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title" data-key="portfolio-title">Sistema Multi-Gimnasio</h4>
+                            <p class="project-tech">Vue.js• Bootstrap • Firebase</p>
+                            <p data-key="portfolio-description">
+                                Sistema Web para gestion de gimnasio, clientes , rutinas y más
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="glass-card project-card">
+                        <div class="project-image">
+                            <img src="img/img5.png" alt="Conversor de Dinero">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://camaco81.github.io/conversor-dinero/conversor_de_dinero/index.html" target="_blank" class="project-link">
+                                        <i class="bi bi-eye"></i> Ver Demo
+                                    </a>
+                                    <a href="https://github.com/Camaco81" target="_blank" class="project-link">
+                                        <i class="bi bi-github"></i> Código
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title" data-key="money-converter-title">Conversor de Divisas</h4>
+                            <p class="project-tech">Vue.js • API Integration • Bootstrap</p>
+                            <p data-key="money-converter-description">
+                                Aplicación de conversión de divisas en tiempo real utilizando APIs externas. 
+                                Interfaz intuitiva con historial de conversiones y múltiples monedas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="glass-card project-card">
+                        <div class="project-image">
+                            <img src="img/img9.png" alt="JobSage">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://camaco81.github.io/JobSage/" target="_blank" class="project-link">
+                                        <i class="bi bi-eye"></i> Ver Demo
+                                    </a>
+                                    <a href="https://github.com/Camaco81" target="_blank" class="project-link">
+                                        <i class="bi bi-github"></i> Código
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title" data-key="jobsage-title">JobSage - Portal de Empleos</h4>
+                            <p class="project-tech">JavaScript • CSS3 • HTML5 • Local Storage</p>
+                            <p data-key="jobsage-description">
+                                Plataforma completa de búsqueda de empleo desarrollada para competencia nacional. 
+                                Sistema de filtros avanzados, perfiles de usuario y panel administrativo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="glass-card project-card">
+                        <div class="project-image">
+                            <img src="img/img7.png" alt="Calculadora de Proteínas">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://camaco81.github.io/calculadora-de-proteinas/index.html" target="_blank" class="project-link">
+                                        <i class="bi bi-eye"></i> Ver Demo
+                                    </a>
+                                    <a href="https://github.com/Camaco81" target="_blank" class="project-link">
+                                        <i class="bi bi-github"></i> Código
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title" data-key="protein-calculator-title">Calculadora Nutricional</h4>
+                            <p class="project-tech">Vue.js • Bootstrap • Nutritional APIs</p>
+                            <p data-key="protein-description">
+                                Herramienta para calcular requerimientos proteicos personalizados según objetivos fitness. 
+                                Incluye base de datos de alimentos y planes nutricionales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="glass-card project-card">
+                        <div class="project-image">
+                            <img src="img/img8.png" alt="Calculadora de Calorías">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://camaco81.github.io/calculadora-de-calorias/caculo_consumo_calorias/index.html" target="_blank" class="project-link">
+                                        <i class="bi bi-eye"></i> Ver Demo
+                                    </a>
+                                    <a href="https://github.com/Camaco81" target="_blank" class="project-link">
+                                        <i class="bi bi-github"></i> Código
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title" data-key="calories-calculator-title">Contador de Calorías</h4>
+                            <p class="project-tech">Vue.js • Bootstrap • Chart.js</p>
+                            <p data-key="calories-description">
+                                Aplicación completa para tracking calórico diario con gráficos interactivos. 
+                                Sistema de metas personalizadas y análisis nutricional detallado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicios" class="py-5 fade-in">
+            <div class="section-header">
+                <h2 class="section-title" data-key="services-title">Servicios</h2>
+                <p class="section-subtitle" data-key="services-subtitle">
+                    Soluciones completas para tu presencia digital
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="mb-4">
+                            <i class="bi bi-code-slash" style="font-size: 3rem; color: var(--glow-color);"></i>
+                        </div>
+                        <h4 data-key="frontend-service-title">Desarrollo Frontend</h4>
+                        <p data-key="frontend-service-description">
+                            Interfaces de usuario modernas y responsivas con las últimas tecnologías. 
+                            Vue.js, React, y CSS avanzado para experiencias excepcionales.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="mb-4">
+                            <i class="bi bi-server" style="font-size: 3rem; color: var(--glow-color);"></i>
+                        </div>
+                        <h4 data-key="backend-service-title">Desarrollo Backend</h4>
+                        <p data-key="backend-service-description">
+                            APIs robustas y escalables con Node.js, PHP y Python. 
+                            Bases de datos optimizadas y arquitecturas de microservicios.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="mb-4">
+                            <i class="bi bi-globe" style="font-size: 3rem; color: var(--glow-color);"></i>
+                        </div>
+                        <h4 data-key="fullstack-service-title">Aplicaciones Completas</h4>
+                        <p data-key="fullstack-service-description">
+                            Desarrollo end-to-end de aplicaciones web completas. 
+                            Desde la concepción hasta el despliegue y mantenimiento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="py-5 fade-in">
+            <div class="section-header">
+                <h2 class="section-title" data-key="contact-title">¡Trabajemos Juntos!</h2>
+                <p class="section-subtitle" data-key="contact-subtitle">
+                    ¿Tienes un proyecto en mente? Me encantaría ayudarte a hacerlo realidad
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name" data-key="name-label">Nombre</label>
+                                        <input type="text" class="form-control" id="name" name="name" 
+                                               placeholder="Tu nombre completo" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email" data-key="email-label">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" 
+                                               placeholder="tu.email@ejemplo.com" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" data-key="subject-label">Asunto</label>
+                                <input type="text" class="form-control" id="subject" name="subject" 
+                                       placeholder="¿En qué puedo ayudarte?">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" data-key="message-label">Mensaje</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" 
+                                          placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="neon-btn" data-key="send-btn">
+                                    <i class="bi bi-send"></i> Enviar Mensaje
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="glass-card">
+                        <i class="bi bi-envelope" style="font-size: 2rem; color: var(--glow-color);"></i>
+                        <h5 class="mt-3" data-key="email-contact">Email</h5>
+                        <p>marco.camacho.dev@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="glass-card">
+                        <i class="bi bi-geo-alt" style="font-size: 2rem; color: var(--glow-color);"></i>
+                        <h5 class="mt-3" data-key="location-contact">Ubicación</h5>
+                        <p data-key="location-text">Disponible para trabajo remoto</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="glass-card">
+                        <i class="bi bi-clock" style="font-size: 2rem; color: var(--glow-color);"></i>
+                        <h5 class="mt-3" data-key="availability-contact">Disponibilidad</h5>
+                        <p data-key="availability-text">Lun - Vie: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4 mt-5" style="border-top: 1px solid rgba(255,255,255,0.1);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="my-name">&lt;MarcoCamacho/&gt;</div>
+                    <p class="mb-0 text-secondary" data-key="footer-text">
+                        Fullstack Developer • Creando experiencias digitales excepcionales
+                    </p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <div class="social-media d-flex gap-3 justify-content-lg-end justify-content-center mt-3 mt-lg-0">
+                        <a href="https://github.com/Camaco81" target="_blank" class="text-white">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/camaco81" target="_blank" class="text-white">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" class="text-white">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/marcos-camacho-677145298" target="_blank" class="text-white">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <script>
+        // Initialize EmailJS
+        emailjs.init('XdsQOvDprQjEdosiB');
+
+    </script>
+    <script src="js/translation.js"></script>
+    <script src="js/animacion.js"></script>
+
+</body>
+</html>
